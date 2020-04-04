@@ -36,7 +36,7 @@ Highcharts.getJSON(
                 mapPoint.properties['hc-key'].substr(3, 2);
         });
 
-        document.getElementById('container').innerHTML = 'Rendering map...';
+        document.getElementById('us-counties-map').innerHTML = 'Rendering map...';
 
         // Create the map
         setTimeout(function () { // Otherwise innerHTML doesn't update
