@@ -1,0 +1,13 @@
+{
+  "name": "mbta-route-planner",
+  "version": "0.0.1",
+  "description": "MBTA Route Planner",
+  "main": "app.js",
+  "scripts": {},
+  "author": "James Spencer",
+  "dependencies": {
+    "express": "^4.x.x",
+    "body-parser": "^1.x.x",
+    "axios": "0.19.2"
+  }
+}
