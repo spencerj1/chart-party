@@ -14,6 +14,10 @@ app.get('/js/us-map', function (req, res) {
   res.status(200).sendFile('./js/maps/us.map.js', { root: __dirname })
 });
 
+app.get('/js/us-counties-map', function (req, res) { 
+  res.status(200).sendFile('./js/maps/us-counties.map.js', { root: __dirname })
+});
+
 app.get('/js/highcharts-theme', function (req, res) { 
   res.status(200).sendFile('./js/themes/highcharts-theme.js', { root: __dirname })
 });

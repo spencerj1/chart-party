@@ -6,7 +6,7 @@ Highcharts.getJSON('https://cdn.jsdelivr.net/gh/highcharts/highcharts@v7.0.0/sam
     });
 
     // Instantiate the map
-    Highcharts.mapChart('container', {
+    Highcharts.mapChart('us-map', {
 
         chart: {
             map: 'countries/us/us-all'
